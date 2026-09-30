@@ -32,19 +32,23 @@ A comprehensive, production-ready skill marketplace for Fused Gaming powered by 
 
 ## Installation
 
+The MCP Core infrastructure is published as `@h4shed/mcp-core`:
+
 ```bash
-npm install fused-gaming-skills
+npm install @h4shed/mcp-core
 ```
 
 ## Usage
 
 ```typescript
-import { SkillRegistry } from 'fused-gaming-skills';
+import { SkillRegistry } from '@h4shed/mcp-core';
 
 const registry = new SkillRegistry();
 const skill = await registry.loadSkill('your-skill-name');
 console.log(skill?.tools);
 ```
+
+**Note**: The root `package.json` is marked `private: true` and is a workspace for development. For production use, install `@h4shed/mcp-core` from npm.
 
 ## Project Structure
 

@@ -104,7 +104,7 @@ Agents have full autonomy for:
 2. Review existing skills in marketplace-registry.json
 3. Create workspace package following pattern
 4. Implement Skill interface
-5. Write tests (target >80% coverage)
+5. Write tests (comprehensive test framework setup is pending)
 6. Add to marketplace-registry.json
 7. Create comprehensive README
 8. Create PR with clear description
@@ -257,40 +257,45 @@ I've encountered a situation that needs your input:
 
 ### Before Any PR
 
-Verify ALL of these pass:
+Verify these checks pass (repository currently supports):
 
 ```bash
 # 1. Builds without errors
 npm run build
 
-# 2. All tests pass
+# 2. All tests pass (note: mcp-core currently has placeholder tests)
 npm run test
 
 # 3. Version consistency
 npm run version:sync
 
-# 4. No TypeScript errors
-npx tsc --noEmit
-
-# 5. No lint errors (if linting configured)
-npm run lint
-
-# 6. No security issues
+# 4. Security audit
 npm audit
 ```
+
+**Note**: The repository currently does not have:
+- Root-level TypeScript configuration (only in mcp-core workspace)
+- Linting/formatting scripts at root level
+- Comprehensive test coverage (tests are placeholders)
+
+These should be added as the project matures. For now, focus on:
+- Documentation updates for any changes
+- Consistency with existing patterns
+- CHANGELOG.md updates
+- Version header maintenance
 
 ### Pull Request Quality Checklist
 
 - [ ] **Title**: Clear, descriptive, follows [type] format
 - [ ] **Description**: Explains what and why, not just what
 - [ ] **Changes**: Minimal and focused on single concern
-- [ ] **Tests**: All new code has tests, >80% coverage
+- [ ] **Tests**: Test additions where applicable (note: full coverage pending test framework setup)
 - [ ] **Documentation**: Updated README, docs, comments if needed
 - [ ] **CHANGELOG**: Entry added for user-facing changes
 - [ ] **Version Headers**: Present in new/modified docs
 - [ ] **No Breaking Changes**: Unless explicitly intended and documented
 - [ ] **Git History**: Clean, logical commits
-- [ ] **Ready for Review**: Not a draft, passes all checks
+- [ ] **Ready for Review**: Not a draft, passes available checks (`npm run build`, `npm run test`, `npm run version:sync`)
 
 ### Code Review Self-Checklist
 
@@ -402,10 +407,16 @@ Affected Files:
 
 ### Test Coverage Goals
 
+**Target state** (as project matures):
 - **Unit tests**: >80% coverage for new code
 - **Integration tests**: For skills and tools
 - **Regression tests**: For bug fixes
 - **Type safety**: Full TypeScript coverage
+
+**Current state**: The repository is transitioning from placeholder tests. Focus on:
+- Adding meaningful tests when creating new skills
+- Writing regression tests for bug fixes
+- Documenting test expectations in PR descriptions
 
 ### Writing Tests
 
@@ -607,7 +618,7 @@ Agents should proactively:
 ### Quality Metrics
 
 - ✅ 0 failing CI checks at merge
-- ✅ >80% test coverage
+- ✅ Tests pass (comprehensive coverage pending test framework setup)
 - ✅ 0 security vulnerabilities introduced
 - ✅ Documentation complete for all changes
 - ✅ CHANGELOG updated

@@ -15,19 +15,23 @@ This guide explains how to integrate Fused Gaming skills into your Claude AI app
 
 ### 1. Installation
 
+The MCP Core infrastructure is published as `@h4shed/mcp-core`:
+
 ```bash
-npm install fused-gaming-skills
+npm install @h4shed/mcp-core
 ```
 
 ### 2. Import and Use
 
 ```typescript
-import { SkillRegistry } from 'fused-gaming-skills';
+import { SkillRegistry } from '@h4shed/mcp-core';
 
 const registry = new SkillRegistry();
 const skill = await registry.loadSkill('your-skill-name');
 console.log(skill?.tools);
 ```
+
+**Note**: This repository (`Fused-Gaming/skills`) is the development workspace. The production package is `@h4shed/mcp-core` on npm.
 
 ## Working with Skill Registry
 

@@ -5,194 +5,248 @@
 - Repository: Fused-Gaming/skills
 -->
 
-# Fused Gaming Skills - Rock Hardened Manifest v1.0.1
+# Fused Gaming Skills - Repository Manifest v1.0.1
 
 **Release Date**: 2026-09-30  
-**Status**: STABLE | ROCK HARDENED  
-**Revision**: 49f7e6b (main)  
-**Integrity**: sha256-SKILLS-v1.0.1
+**Status**: STABLE  
+**Revision**: main (as of 2026-09-30)  
 
 ## Repository Information
 
 - **Repository**: Fused-Gaming/skills
-- **Type**: Skills Marketplace
+- **Type**: Skills Marketplace + Development Workspace
 - **Version**: 1.0.1
 - **License**: Apache-2.0 + Non-Commercial
 - **Copyright**: Fused Gaming Inc.
+- **Package**: `@h4shed/mcp-core` (npm - production)
 
 ## Contents
 
-| Item | Count | Status |
-|------|-------|--------|
-| Skills | 53 | ✅ Cataloged |
-| Categories | 13 | ✅ Organized |
-| Legal Skills | 23 | ✅ Integrated |
-| MCP Core | 1.0.40 | ✅ Pinned |
-| Documentation Files | 4 | ✅ Complete |
-| Configuration Files | 3 | ✅ Locked |
+| Item | Count | Notes |
+|------|-------|-------|
+| Skills | 53 | Cataloged in marketplace-registry.json |
+| Categories | 13 | Organized by function |
+| Legal Skills | 23 | Case-management and legal procedures |
+| MCP Core | v1.0.40 | Core infrastructure (mcp-core workspace) |
+| Documentation Files | 10+ | Organized in docs/ directory |
+| Configuration Files | 4 | Root-level + docs/configuration/ |
+| Guide Files | 3 | SKILL.md, CLAUDE.md, AGENTS.md |
 
-## Rock Hardening Status
-
-### Deterministic Build
-- ✅ **Locked Dependencies**: All versions pinned
-- ✅ **Reproducible Build**: package-lock.json
-- ✅ **Version Manifest**: VERSION.json
-- ✅ **Integrity Checksum**: sha256-SKILLS-v1.0.1
-
-### Security Verification
-- ✅ **License Verification**: Apache-2.0
-- ✅ **Non-Commercial**: Enforced
-- ✅ **Copyright**: Fused Gaming Inc.
-- ✅ **Signature Ready**: Yes
-
-### Quality Assurance
-- ✅ **Documentation**: Complete (4 files)
-- ✅ **Registry**: Complete (marketplace-registry.json)
-- ✅ **Catalog**: Complete (SKILLS_CATALOG.md)
-- ✅ **Configuration**: Locked (package-lock.json)
-
-## Dependency Matrix
-
-### Required Dependencies
-```
-@modelcontextprotocol/sdk: 1.29.0 (LOCKED)
-express: 4.18.2 (LOCKED)
-```
-
-### Development Dependencies
-```
-@types/express: 4.17.21 (LOCKED)
-@types/node: 20.12.0 (LOCKED)
-typescript: 5.3.2 (LOCKED)
-```
-
-### External Repository Dependencies
-
-| Repository | Version | Required | Status |
-|-----------|---------|----------|--------|
-| tools | 1.0.0 | ❌ Optional | Pinned |
-| agents | 1.0.1 | ❌ Optional | Pinned |
-
-## Cross-Repository References
-
-### Tools Marketplace
-- **URL**: https://github.com/Fused-Gaming/tools
-- **Version**: 1.0.0
-- **Status**: Optional integration
-- **Checksum**: sha256-TOOLS-v1.0.0
-
-### Agents Marketplace
-- **URL**: https://github.com/Fused-Gaming/agents
-- **Version**: 1.0.1
-- **Status**: Optional integration
-- **Checksum**: sha256-AGENTS-v1.0.1
-
-## File Structure
+## Repository Structure
 
 ```
 skills/
-├── mcp-core/                    # Core MCP (v1.0.40)
-│   ├── src/                     # TypeScript source
-│   ├── package.json             # Pinned
-│   └── tsconfig.json            # Locked
-├── marketplace-registry.json    # 30 skills, 12 categories
-├── MARKETPLACE.md               # Registry specs
-├── SKILLS_CATALOG.md            # Organized directory
-├── LICENSE                      # Non-commercial
-├── README.md                    # Getting started
-├── VERSION.json                 # This version manifest
-├── package.json                 # Root config (LOCKED)
-├── package-lock.json            # Dependency lock (LOCKED)
-└── MANIFEST.md                  # This file
-```
+├── docs/                           # Organized documentation (v1.0.1)
+│   ├── getting-started/           # Entry point and quickstart
+│   │   └── README.md
+│   ├── guides/                    # Development and integration guides
+│   │   ├── integration-guide.md
+│   │   └── development-guide.md
+│   ├── reference/                 # Reference materials
+│   │   ├── MARKETPLACE.md         # Marketplace specs
+│   │   ├── SKILLS_CATALOG.md      # Skill inventory
+│   │   └── LICENSE                # License terms
+│   ├── configuration/             # Configuration and metadata
+│   │   ├── MANIFEST.md            # This file
+│   │   ├── VERSION.json           # Version metadata
+│   │   └── ENVIRONMENT.md         # Environment setup
+│   └── releases/                  # Release information
+│       └── RELEASE_v1.0.1.md      # Current release notes
+├── mcp-core/                      # Core MCP server (v1.0.40)
+│   ├── src/                       # TypeScript source
+│   ├── package.json               # Workspace config
+│   └── tsconfig.json              # TypeScript config
+├── marketplace-registry.json      # Skills registry (53 skills)
+├── package.json                   # Root workspace (private)
+├── package-lock.json              # Locked dependencies
+├── VERSION.json                   # Version metadata
+├── CHANGELOG.md                   # Version history
+├── README.md                       # Root entry point
+├── SKILL.md                       # Agent development guide
+├── CLAUDE.md                      # Claude AI configuration
+├── AGENTS.md                      # Agent autonomy guidelines
+└── LICENSE                        # License file
 
-## Verification Checklist
+## Dependency Matrix
 
-### Build Verification
-- ✅ All dependencies locked in package-lock.json
-- ✅ No floating/wildcard version specifications
-- ✅ Reproducible build enabled
-- ✅ Source code integrity verified
+### Root Package (private workspace)
+- `@modelcontextprotocol/sdk: ^1.29.0`
+- `express: ^4.18.2`
+- Development tools as needed
 
-### Documentation Verification
-- ✅ README.md: Getting started guide
-- ✅ MARKETPLACE.md: Registry specifications
-- ✅ SKILLS_CATALOG.md: Organized directory
-- ✅ LICENSE: Non-commercial terms
+**Note**: Root package is marked `private: true` for workspace use only.
 
-### Registry Verification
-- ✅ marketplace-registry.json: Complete and valid
-- ✅ All 30 skills cataloged
-- ✅ All 12 categories defined
-- ✅ All metadata fields present
+### MCP Core Package (@h4shed/mcp-core)
+- Packaged for npm publication
+- Exports: SkillRegistry, Skill interface, Tool types
+- Targets Node.js 18+
 
-### Security Verification
-- ✅ License terms enforced
-- ✅ Copyright protected
-- ✅ Non-commercial restrictions applied
-- ✅ Checksum: sha256-SKILLS-v1.0.0
+### External Dependencies
 
-## Deployment Instructions
+| Repository | Version | Type | Status |
+|-----------|---------|------|--------|
+| Fused-Gaming/tools | 1.0.0 | Optional | Pinned |
+| Fused-Gaming/agents | 1.0.1 | Optional | Pinned |
 
-### 1. Verify Integrity
+## Version Information
+
+**Current Version**: 1.0.1  
+**Semantic Versioning**: MAJOR.MINOR.PATCH
+
+### Version Files
+- `package.json` - `version: "1.0.1"`
+- `VERSION.json` - `version: "1.0.1"`
+- File headers - All docs marked `Version: 1.0.1`
+
+**Sync Status**: Manual verification required (no CI validation yet)
+
+## Documentation Organization
+
+### By Purpose
+
+**For Getting Started**
+- Entry: `README.md` (minimal entry point)
+- Getting Started: `docs/getting-started/README.md`
+
+**For Usage**
+- Integration: `docs/guides/integration-guide.md`
+- Skills List: `docs/reference/SKILLS_CATALOG.md`
+- Marketplace: `docs/reference/MARKETPLACE.md`
+
+**For Development**
+- Development Guide: `docs/guides/development-guide.md`
+- Repository Conventions: `SKILL.md`
+- Agent Guidelines: `AGENTS.md`
+- Claude Guide: `CLAUDE.md`
+
+**For Configuration**
+- Environment Setup: `docs/configuration/ENVIRONMENT.md`
+- Version Metadata: `docs/configuration/VERSION.json`
+- Manifest: `docs/configuration/MANIFEST.md` (this file)
+
+**For Release Info**
+- Current Release: `docs/releases/RELEASE_v1.0.1.md`
+- Version History: `CHANGELOG.md`
+
+## Quality Assurance Status
+
+### Locked Dependencies
+- ✅ `package-lock.json` present
+- ✅ All major versions pinned
+- ✅ Reproducible install: `npm ci`
+
+### Documentation
+- ✅ Organized in logical categories
+- ✅ Version control headers present
+- ✅ Cross-references maintained
+- ⚠️ Needs CI validation for links
+
+### Testing & Verification
+- ⚠️ Test framework setup pending
+- ⚠️ CI/CD workflow needed for automated verification
+- ⚠️ Integrity checksums are manual labels
+
+### Known Limitations (v1.0.1)
+
+1. **Testing**: mcp-core has placeholder tests
+2. **CI/CD**: No automated verification workflow
+3. **Linting**: No root-level linting configured
+4. **TypeScript**: Configuration only in mcp-core workspace
+5. **Verification Claims**: Manual vs. machine-verified distinction not yet clear
+
+## Integrity & Verification
+
+### What's Verified
+- ✅ Dependency lock: `package-lock.json`
+- ✅ Version consistency: Manual (check VERSION.json vs package.json)
+- ✅ Documentation structure: Manual review
+- ✅ License compliance: Manual verification
+
+### What's NOT Yet Verified by CI
+- ❌ Automated build verification
+- ❌ Automated test verification
+- ❌ Link validity checking
+- ❌ Cross-reference validation
+- ❌ Security scanning
+
+### Future Improvements
+
+CI/CD should add:
+1. Build verification on PRs
+2. Test execution
+3. Documentation link checking
+4. TypeScript type checking (at workspace level)
+5. Security audits
+6. Version consistency validation
+
+## File Statistics
+
+| Category | Count | Notes |
+|----------|-------|-------|
+| Markdown docs | 10+ | In docs/ + root |
+| JSON config | 4 | package.json, package-lock.json, VERSION.json, marketplace-registry.json |
+| TypeScript | TBD | In mcp-core/src/ |
+| Guide files | 3 | SKILL.md, CLAUDE.md, AGENTS.md |
+
+## Deployment Checklist
+
+**For Development/Testing:**
 ```bash
-git checkout main
-git verify-commit 89bd120
+npm install              # Install dependencies
+npm run build           # Build all workspaces
+npm run test            # Run available tests
+npm run version:sync    # Check version consistency
 ```
 
-### 2. Check Version
-```bash
-cat VERSION.json | jq '.version'
-```
-
-### 3. Verify Dependencies
-```bash
-npm ci  # Use package-lock.json
-```
-
-### 4. Validate Registry
-```bash
-cat marketplace-registry.json | jq '.stats'
-```
+**For Production (mcp-core):**
+- Install `@h4shed/mcp-core` from npm
+- Verify version matches intention
+- Check security audit: `npm audit`
 
 ## Support & Maintenance
 
-### Stability Guarantee
-- ✅ This version (1.0.0) is STABLE
-- ✅ No breaking changes planned
-- ✅ Backward compatibility maintained
-- ✅ Long-term support committed
+**This Manifest Document**
+- Location: `docs/configuration/MANIFEST.md`
+- Purpose: Track repository structure and state
+- Update: When major structure changes occur
+- Verification: Manual (until CI added)
 
-### Future Updates
-- Updates will increment minor/patch versions
-- Breaking changes require major version bump
-- All changes documented in CHANGELOG
-- Community input welcomed
+**Related Documents**
+- `CHANGELOG.md` - Version history and changes
+- `VERSION.json` - Authoritative version metadata
+- `SKILL.md` - Repository conventions
+- `AGENTS.md` - Agent guidelines
+- `CLAUDE.md` - Claude AI guidance
 
-## Related Repositories
+## Notes for Contributors
 
-- **Fused-Gaming/tools** (v1.0.0) - Tools Marketplace
-- **Fused-Gaming/agents** (v1.0.0) - Agents Marketplace
-- **Fused-Gaming/Fused-Gaming-Skill-MCP** - Main MCP Repository
+1. **When adding files**: Update this manifest if structure changes
+2. **When releasing**: Update VERSION.json, package.json, CHANGELOG.md
+3. **When documenting**: Use docs/ hierarchy and add version headers
+4. **When creating PRs**: Reference related docs in description
+5. **When verifying state**: Check documentation hasn't drifted
 
-## Signature & Validation
+## Future Roadmap
 
-| Property | Value |
-|----------|-------|
-| Repository | Fused-Gaming/skills |
-| Commit | 89bd120 |
-| Branch | main |
-| Tag | v1.0.0-skills |
-| Integrity | sha256-SKILLS-v1.0.0 |
-| Status | ✅ VERIFIED |
-| Rock Hardened | ✅ YES |
-| Reproducible | ✅ YES |
-| Deterministic | ✅ YES |
+**For v1.0.2+:**
+- Add comprehensive test suite
+- Set up CI/CD workflows
+- Add automated verification
+- Link checking in CI
+- TypeScript configuration at root level
+
+**For v1.1.0:**
+- Enhanced skill composition
+- Performance monitoring
+- Extended marketplace categories
+- Advanced documentation generation
 
 ---
 
-**This manifest certifies that Fused Gaming Skills v1.0.0 is rock-hardened, deterministic, and production-ready.**
+**Last Updated**: 2026-09-30  
+**Revision**: v1.0.1 (2026-09-30)  
+**Authority**: Manual (no CI validation yet)  
+**Status**: Active - Documentation Reorganization Complete
 
-Date: 2026-09-30  
-Authority: Fused Gaming Inc.  
-License: Apache-2.0 + Non-Commercial v1.0
+**Note**: This manifest describes current repository state as of v1.0.1. Integrity verification is manual at this stage. Future versions will add CI/CD validation.
+
