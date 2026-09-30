@@ -1,0 +1,66 @@
+{
+  "repository": "Fused-Gaming/skills",
+  "version": "1.0.0",
+  "releaseDate": "2026-09-30",
+  "status": "stable",
+  "type": "skills",
+  "description": "Skills Marketplace - Central catalog of 30 skills with MCP core infrastructure",
+  "revision": {
+    "commit": "89bd120",
+    "branch": "main",
+    "tag": "v1.0.0-skills"
+  },
+  "contents": {
+    "skills": 30,
+    "categories": 12,
+    "mcp-core": "1.0.40",
+    "tools": 60
+  },
+  "dependencies": {
+    "tools": {
+      "version": "1.0.0",
+      "repository": "https://github.com/Fused-Gaming/tools",
+      "required": false,
+      "integrity": "sha256-TOOLS-v1.0.0"
+    },
+    "agents": {
+      "version": "1.0.0",
+      "repository": "https://github.com/Fused-Gaming/agents",
+      "required": false,
+      "integrity": "sha256-AGENTS-v1.0.0"
+    }
+  },
+  "security": {
+    "license": "Apache-2.0",
+    "nonCommercial": true,
+    "freeForEducation": true,
+    "verified": true,
+    "checksum": "sha256-SKILLS-v1.0.0"
+  },
+  "quality": {
+    "deterministic": true,
+    "reproducible": true,
+    "locked": true,
+    "hardened": true,
+    "documentation": "complete"
+  },
+  "files": {
+    "total": 14,
+    "code": 7,
+    "documentation": 4,
+    "configuration": 3
+  },
+  "metadata": {
+    "created": "2026-09-30T06:30:00Z",
+    "updated": "2026-09-30T06:50:00Z",
+    "maintainer": "Fused Gaming",
+    "copyright": "Fused Gaming Inc."
+  },
+  "verification": {
+    "status": "VERIFIED",
+    "integrityCheck": true,
+    "signatureRequired": false,
+    "reproducibleBuild": true,
+    "lockfile": "package-lock.json"
+  }
+}
