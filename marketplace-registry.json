@@ -546,6 +546,420 @@
           "repo": "Fused-Gaming-Skill-MCP"
         },
         "tags": ["mcp", "skill", "vite", "bundler", "build", "module"]
+      },
+      {
+        "id": "anti-slapp",
+        "name": "Anti-SLAPP",
+        "version": "1.0.0",
+        "description": "Screen civil claims for Anti-SLAPP issues, protected activity, claim targeting, deadlines, evidence, authority, and attorney-review packet preparation",
+        "category": "legal",
+        "package": "@h4shed/skill-anti-slapp",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Non-Commercial",
+        "capabilities": ["anti-slapp-screening", "protected-activity-analysis", "motion-preparation"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "case-canon"
+        },
+        "tags": ["legal", "civil-litigation", "anti-slapp", "procedural-overlay"]
+      },
+      {
+        "id": "asset-recovery",
+        "name": "Asset Recovery",
+        "version": "1.0.0",
+        "description": "Organize return-of-property matters involving seized electronics or other property, including no-file, existing-case, warrant-controlled, and administrative-release routes",
+        "category": "legal",
+        "package": "@h4shed/skill-asset-recovery",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Non-Commercial",
+        "capabilities": ["asset-management", "property-recovery", "criminal-procedure"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "case-canon"
+        },
+        "tags": ["legal", "criminal-law", "property-recovery", "asset-management"]
+      },
+      {
+        "id": "attorney-approval",
+        "name": "Attorney Approval",
+        "version": "1.0.0",
+        "description": "Enforce A0-A5 legal automation permissions, exact-version approvals, material-change invalidation, and no-rogue-action rules",
+        "category": "legal",
+        "package": "@h4shed/skill-attorney-approval",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Non-Commercial",
+        "capabilities": ["approval-gating", "permission-enforcement", "security"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "case-canon"
+        },
+        "tags": ["legal", "approval-workflow", "access-control", "compliance"]
+      },
+      {
+        "id": "ca-civil-appeal",
+        "name": "CA Civil Appeal",
+        "version": "1.0.0",
+        "description": "Route California civil appellate preservation and appeal support, including appealability screening, notice, record designation, briefing, stays, post-order deadlines, and extraordinary-writ handoff",
+        "category": "legal",
+        "package": "@h4shed/skill-ca-civil-appeal",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Non-Commercial",
+        "capabilities": ["appellate-practice", "appeal-routing", "jurisdiction-management"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "case-canon"
+        },
+        "tags": ["legal", "california-law", "appellate-procedure", "civil-practice"]
+      },
+      {
+        "id": "ca-civil-default",
+        "name": "CA Civil Default",
+        "version": "1.0.0",
+        "description": "Route California civil default and default-judgment workflows, service proof, damages/evidence packets, clerk/court routes, set-aside screening, and approval-gated filing",
+        "category": "legal",
+        "package": "@h4shed/skill-ca-civil-default",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Non-Commercial",
+        "capabilities": ["default-judgment", "service-management", "filing-workflow"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "case-canon"
+        },
+        "tags": ["legal", "california-law", "civil-procedure", "judgment"]
+      },
+      {
+        "id": "ca-civil-discovery",
+        "name": "CA Civil Discovery",
+        "version": "1.0.0",
+        "description": "Organize California civil discovery planning, requests, responses, objections, meet-and-confer, motions, evidence linkage, and deadline verification without inventing procedural dates",
+        "category": "legal",
+        "package": "@h4shed/skill-ca-civil-discovery",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Non-Commercial",
+        "capabilities": ["discovery-management", "deadline-tracking", "motion-support"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "case-canon"
+        },
+        "tags": ["legal", "california-law", "civil-procedure", "discovery"]
+      },
+      {
+        "id": "ca-civil-motion-practice",
+        "name": "CA Civil Motion Practice",
+        "version": "1.0.0",
+        "description": "Route California civil law-and-motion work including demurrers, motions to strike, venue/service challenges, continuances, discovery motions, evidentiary motions, oppositions, replies, hearings, and proposed orders",
+        "category": "legal",
+        "package": "@h4shed/skill-ca-civil-motion-practice",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Non-Commercial",
+        "capabilities": ["motion-practice", "procedural-routing", "briefing-support"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "case-canon"
+        },
+        "tags": ["legal", "california-law", "civil-procedure", "motion-practice"]
+      },
+      {
+        "id": "ca-civil-settlement",
+        "name": "CA Civil Settlement",
+        "version": "1.0.0",
+        "description": "Organize California civil settlement posture, demand/offer history, authority, term sheets, release scope, dismissal conditions, payment/performance tracking, and approval-gated communications",
+        "category": "legal",
+        "package": "@h4shed/skill-ca-civil-settlement",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Non-Commercial",
+        "capabilities": ["settlement-management", "negotiation-support", "workflow-tracking"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "case-canon"
+        },
+        "tags": ["legal", "california-law", "settlement", "negotiation"]
+      },
+      {
+        "id": "ca-claim-delivery",
+        "name": "CA Claim & Delivery",
+        "version": "1.0.0",
+        "description": "Route California claim-and-delivery and prejudgment writ-of-possession practice, including noticed/ex parte screening, property description, undertaking, protective TRO, service, levy, and opposition",
+        "category": "legal",
+        "package": "@h4shed/skill-ca-claim-delivery",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Non-Commercial",
+        "capabilities": ["remedy-routing", "prejudgment-remedies", "property-recovery"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "case-canon"
+        },
+        "tags": ["legal", "california-law", "civil-remedies", "property-law"]
+      },
+      {
+        "id": "ca-declaratory-equitable-relief",
+        "name": "CA Declaratory & Equitable Relief",
+        "version": "1.0.0",
+        "description": "Screen California civil declaratory relief and final equitable remedies, actual controversy, necessary parties, requested declarations, permanent injunctions, and remedy consistency",
+        "category": "legal",
+        "package": "@h4shed/skill-ca-declaratory-equitable-relief",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Non-Commercial",
+        "capabilities": ["equitable-remedies", "declaratory-relief", "injunction-support"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "case-canon"
+        },
+        "tags": ["legal", "california-law", "equity", "civil-remedies"]
+      },
+      {
+        "id": "ca-general-civil",
+        "name": "CA General Civil",
+        "version": "1.0.0",
+        "description": "Orchestrate California general civil litigation for plaintiff and defendant roles across intake, pleadings, service, motions, discovery, settlement, trial preparation, judgment, and appellate preservation",
+        "category": "legal",
+        "package": "@h4shed/skill-ca-general-civil",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Non-Commercial",
+        "capabilities": ["litigation-orchestration", "workflow-management", "multi-phase-coordination"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "case-canon"
+        },
+        "tags": ["legal", "california-law", "civil-litigation", "general-practice"]
+      },
+      {
+        "id": "ca-injunctions",
+        "name": "CA Injunctions",
+        "version": "1.0.0",
+        "description": "Route California civil TRO, ex parte, preliminary-injunction, permanent-injunction, OSC, notice, undertaking, and opposition workflows as remedies attached to a supported underlying matter",
+        "category": "legal",
+        "package": "@h4shed/skill-ca-injunctions",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Non-Commercial",
+        "capabilities": ["injunctive-relief", "temporary-remedies", "emergency-procedures"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "case-canon"
+        },
+        "tags": ["legal", "california-law", "remedies", "injunctions"]
+      },
+      {
+        "id": "ca-protective-orders",
+        "name": "CA Protective Orders",
+        "version": "1.0.0",
+        "description": "Route California WVRO, CHRO, and DVRO filer/respondent workflows with order-safety, evidence, service, hearing, property/animal, speech, Anti-SLAPP, modification, and appeal overlays",
+        "category": "legal",
+        "package": "@h4shed/skill-ca-protective-orders",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Non-Commercial",
+        "capabilities": ["protective-order-management", "restraining-order-practice", "order-safety"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "case-canon"
+        },
+        "tags": ["legal", "california-law", "protective-orders", "restraining-orders"]
+      },
+      {
+        "id": "ca-tenant-defense",
+        "name": "CA Tenant Defense",
+        "version": "1.0.0",
+        "description": "Route California unlawful-detainer tenant defense, answer, evidence, local-protection, and fee-waiver workflows without inventing defenses or deadlines",
+        "category": "legal",
+        "package": "@h4shed/skill-ca-tenant-defense",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Non-Commercial",
+        "capabilities": ["tenant-defense", "unlawful-detainer", "housing-law"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "case-canon"
+        },
+        "tags": ["legal", "california-law", "housing-law", "tenant-defense"]
+      },
+      {
+        "id": "ca-writs",
+        "name": "CA Writs",
+        "version": "1.0.0",
+        "description": "Route California civil writ practice, including traditional mandate, administrative mandate, prohibition/review screening, stays, records, return, and writ petition packet preparation",
+        "category": "legal",
+        "package": "@h4shed/skill-ca-writs",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Non-Commercial",
+        "capabilities": ["writ-practice", "appellate-remedies", "extraordinary-remedies"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "case-canon"
+        },
+        "tags": ["legal", "california-law", "writs", "appellate-practice"]
+      },
+      {
+        "id": "evidence-integrity",
+        "name": "Evidence Integrity",
+        "version": "1.0.0",
+        "description": "Preserve, hash, index, classify, authenticate, redact, and compare evidence while protecting originals and provenance",
+        "category": "legal",
+        "package": "@h4shed/skill-evidence-integrity",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Non-Commercial",
+        "capabilities": ["evidence-management", "provenance-tracking", "digital-forensics"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "case-canon"
+        },
+        "tags": ["legal", "evidence-management", "forensics", "compliance"]
+      },
+      {
+        "id": "filing-qa",
+        "name": "Filing QA",
+        "version": "1.0.0",
+        "description": "Audit legal filing packets for current official forms, captions, parties, signatures, service, exhibits, local rules, PDF quality, blockers, and approval state",
+        "category": "legal",
+        "package": "@h4shed/skill-filing-qa",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Non-Commercial",
+        "capabilities": ["quality-assurance", "filing-audit", "compliance-checking"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "case-canon"
+        },
+        "tags": ["legal", "filing", "quality-assurance", "compliance"]
+      },
+      {
+        "id": "legal-intake",
+        "name": "Legal Intake",
+        "version": "1.0.0",
+        "description": "Create or audit a canonical legal matter record before drafting. Use for new matters, mixed proceedings, deadline triage, order-safety checks, parties, court, posture, and unknown-fact capture",
+        "category": "legal",
+        "package": "@h4shed/skill-legal-intake",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Non-Commercial",
+        "capabilities": ["matter-management", "intake-workflow", "case-documentation"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "case-canon"
+        },
+        "tags": ["legal", "intake", "case-management", "matter-management"]
+      },
+      {
+        "id": "legal-research",
+        "name": "Legal Research",
+        "version": "1.0.0",
+        "description": "Evidence-first legal authority research with jurisdiction-first routing and fact/authority integration. Not legal advice",
+        "category": "legal",
+        "package": "@h4shed/skill-legal-research",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Non-Commercial",
+        "capabilities": ["legal-research", "authority-verification", "jurisdiction-management"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "case-canon"
+        },
+        "tags": ["legal", "research", "authority-verification", "jurisdiction"]
+      },
+      {
+        "id": "official-forms",
+        "name": "Official Forms",
+        "version": "1.0.0",
+        "description": "Find, fetch, verify, cache, and prepare official judicial or court forms from authoritative government sources. Use whenever a filing may use a Judicial Council, local court, agency, or official form",
+        "category": "legal",
+        "package": "@h4shed/skill-official-forms",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Non-Commercial",
+        "capabilities": ["form-management", "document-procurement", "form-verification"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "case-canon"
+        },
+        "tags": ["legal", "forms", "document-management", "compliance"]
+      },
+      {
+        "id": "public-records",
+        "name": "Public Records",
+        "version": "1.0.0",
+        "description": "Build narrow public-records, PRA, FOIA, NextRequest, police-record, court-record, and agency-record workflows with provenance and response tracking",
+        "category": "legal",
+        "package": "@h4shed/skill-public-records",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Non-Commercial",
+        "capabilities": ["public-records-requests", "foia", "disclosure-compliance"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "case-canon"
+        },
+        "tags": ["legal", "public-records", "foia", "transparency"]
+      },
+      {
+        "id": "risk-priority",
+        "name": "Risk Priority",
+        "version": "1.0.0",
+        "description": "Score legal workflow urgency, impact, procedural importance, evidence readiness, strategic value, and irreversible risk to route DO NOW, DO NEXT, SCHEDULE, MONITOR, ESCALATE, or FREEZE",
+        "category": "legal",
+        "package": "@h4shed/skill-risk-priority",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Non-Commercial",
+        "capabilities": ["risk-assessment", "prioritization", "workflow-routing"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "case-canon"
+        },
+        "tags": ["legal", "risk-management", "prioritization", "triage"]
+      },
+      {
+        "id": "speech-suppression",
+        "name": "Speech Suppression",
+        "version": "1.0.0",
+        "description": "Analyze civil/restraining-order matters involving public-interest speech, journalism, protest, records activity, whistleblowing, or civic engagement without presuming retaliation or protected status",
+        "category": "legal",
+        "package": "@h4shed/skill-speech-suppression",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Non-Commercial",
+        "capabilities": ["first-amendment-defense", "speech-analysis", "civil-rights"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "case-canon"
+        },
+        "tags": ["legal", "civil-rights", "first-amendment", "speech-protection"]
       }
     ]
   },
@@ -564,8 +978,9 @@
     "automation"
   ],
   "stats": {
-    "totalSkills": 30,
+    "totalSkills": 53,
     "byCategory": {
+      "legal": 23,
       "design": 8,
       "development": 4,
       "generative-art": 3,

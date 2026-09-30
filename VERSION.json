@@ -1,18 +1,18 @@
 {
   "repository": "Fused-Gaming/skills",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "releaseDate": "2026-09-30",
   "status": "stable",
   "type": "skills",
-  "description": "Skills Marketplace - Central catalog of 30 skills with MCP core infrastructure",
+  "description": "Skills Marketplace - Central catalog of 53 skills including 23 legal/case-management skills with MCP core infrastructure",
   "revision": {
-    "commit": "89bd120",
+    "commit": "TBD",
     "branch": "main",
-    "tag": "v1.0.0-skills"
+    "tag": "v1.0.1-skills"
   },
   "contents": {
-    "skills": 30,
-    "categories": 12,
+    "skills": 53,
+    "categories": 13,
     "mcp-core": "1.0.40",
     "tools": 60
   },
@@ -24,10 +24,10 @@
       "integrity": "sha256-TOOLS-v1.0.0"
     },
     "agents": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "repository": "https://github.com/Fused-Gaming/agents",
       "required": false,
-      "integrity": "sha256-AGENTS-v1.0.0"
+      "integrity": "sha256-AGENTS-v1.0.1"
     }
   },
   "security": {
@@ -52,7 +52,7 @@
   },
   "metadata": {
     "created": "2026-09-30T06:30:00Z",
-    "updated": "2026-09-30T06:50:00Z",
+    "updated": "2026-09-30T08:15:00Z",
     "maintainer": "Fused Gaming",
     "copyright": "Fused Gaming Inc."
   },
