@@ -1,0 +1,24 @@
+{
+  "name": "fused-gaming-skills",
+  "version": "1.0.0",
+  "description": "Skill-centric MCP repository for Fused Gaming",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "mcp-core"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "dev": "npm run dev --workspaces",
+    "test": "npm run test --workspaces",
+    "clean": "rm -rf node_modules mcp-core/node_modules mcp-core/dist"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "skills",
+    "fused-gaming"
+  ]
+}
