@@ -153,7 +153,7 @@ This software is **free** for:
 - Student projects and assignments
 - Non-profit activities
 
-**Commercial use requires a separate commercial license.** Contact playxrewards@gmail.com for commercial licensing.
+**Commercial use requires a separate commercial license.** Contact license@vln.gg for commercial licensing.
 
 See [LICENSE](./LICENSE) file for complete terms.
 
