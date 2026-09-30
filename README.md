@@ -139,7 +139,23 @@ When contributing to this repository:
 
 ## License
 
-Apache-2.0
+**Fused Gaming Skills Marketplace - Non-Commercial License v1.0**
+
+- ✅ **Free for**: Individual use, education, research, academic institutions
+- ❌ **Not free for**: Commercial use, revenue-generating services, business applications
+
+### License Terms
+
+This software is **free** for:
+- Personal projects and experiments
+- Educational purposes and learning
+- Academic and research institutions
+- Student projects and assignments
+- Non-profit activities
+
+**Commercial use requires a separate commercial license.** Contact playxrewards@gmail.com for commercial licensing.
+
+See [LICENSE](./LICENSE) file for complete terms.
 
 ## Related Documentation
 
