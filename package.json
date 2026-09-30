@@ -1,6 +1,6 @@
 {
   "name": "fused-gaming-skills",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Skill-centric MCP repository for Fused Gaming",
   "private": true,
   "type": "module",
@@ -11,14 +11,29 @@
     "build": "npm run build --workspaces",
     "dev": "npm run dev --workspaces",
     "test": "npm run test --workspaces",
-    "clean": "rm -rf node_modules mcp-core/node_modules mcp-core/dist"
+    "clean": "rm -rf node_modules mcp-core/node_modules mcp-core/dist",
+    "docs:build": "npm run build && echo 'Documentation build complete'",
+    "version:check": "node -e \"console.log(require('./VERSION.json').version)\"",
+    "version:sync": "node -e \"const p = require('./package.json'); const v = require('./VERSION.json'); console.log('Package: ' + p.version + ', VERSION.json: ' + v.version)\"",
+    "manifest:update": "node -e \"console.log('Manifest update utility - placeholder for future implementation')\""
   },
+  "files": [
+    "mcp-core",
+    "docs",
+    "marketplace-registry.json",
+    "VERSION.json",
+    "CHANGELOG.md",
+    "package.json",
+    "package-lock.json",
+    "LICENSE"
+  ],
   "engines": {
     "node": ">=18.0.0"
   },
   "keywords": [
     "mcp",
     "skills",
-    "fused-gaming"
+    "fused-gaming",
+    "marketplace"
   ]
 }

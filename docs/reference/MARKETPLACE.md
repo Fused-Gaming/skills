@@ -1,3 +1,10 @@
+<!-- Version Control
+- Version: 1.0.1
+- Last Updated: 2026-09-30
+- Status: active
+- Repository: Fused-Gaming/skills
+-->
+
 # Fused Gaming Skills Marketplace
 
 A centralized catalog and registry for all skills available in the Fused Gaming ecosystem.
