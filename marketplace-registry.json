@@ -1,0 +1,583 @@
+{
+  "registry": {
+    "version": "1.0.0",
+    "name": "Fused Gaming Skills Marketplace",
+    "description": "Central catalog of all available skills in the Fused Gaming ecosystem",
+    "lastUpdated": "2026-09-30T06:35:00Z",
+    "source": "Fused-Gaming/Fused-Gaming-Skill-MCP",
+    "totalSkills": 30,
+    "skills": [
+      {
+        "id": "agentic-flow-devkit",
+        "name": "Agentic Flow DevKit",
+        "version": "1.0.21",
+        "description": "Design and visualize agentic orchestration flows with trailer A/B-roll planning support",
+        "category": "design",
+        "package": "@h4shed/skill-agentic-flow-devkit",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": ["flow-visualization", "orchestration", "planning"],
+        "tools": ["plan_trailer_rolls", "visualize_agentic_flow"],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": ["mcp", "skill", "agentic-flow", "orchestration", "trailer"]
+      },
+      {
+        "id": "algorithmic-art",
+        "name": "Algorithmic Art",
+        "version": "1.0.24",
+        "description": "Generative art using p5.js with seeded randomness, flow fields, and particle systems",
+        "category": "generative-art",
+        "package": "@h4shed/skill-algorithmic-art",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": ["generative-art", "flow-fields", "particle-systems", "visualization"],
+        "tools": ["flow_field", "generate_art"],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": ["mcp", "skill", "art", "generative", "p5js", "visualization"]
+      },
+      {
+        "id": "ascii-mockup",
+        "name": "ASCII Mockup",
+        "version": "1.0.24",
+        "description": "Mobile-first ASCII wireframe mockup generator for rapid UI prototyping",
+        "category": "design",
+        "package": "@h4shed/skill-ascii-mockup",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": ["wireframing", "prototyping", "ascii-art"],
+        "tools": ["generate_mockup"],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": ["mcp", "skill", "wireframe", "mockup", "ascii", "ui", "prototyping"]
+      },
+      {
+        "id": "canvas-design",
+        "name": "Canvas Design",
+        "version": "1.0.24",
+        "description": "Visual design generation for web with SVG and canvas rendering",
+        "category": "design",
+        "package": "@h4shed/skill-canvas-design",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": ["svg-generation", "canvas-rendering", "visual-design"],
+        "tools": ["generate_svg"],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": ["mcp", "skill", "design", "canvas", "svg", "graphics", "visualization"]
+      },
+      {
+        "id": "skill-creator",
+        "name": "Skill Creator",
+        "version": "1.0.24",
+        "description": "Create custom skills and tools for the Fused Gaming MCP ecosystem",
+        "category": "mcp-tools",
+        "package": "@h4shed/skill-creator",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": ["skill-scaffolding", "mcp-tooling"],
+        "tools": ["create_skill"],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": ["mcp", "skill", "builder", "scaffold", "tooling"]
+      },
+      {
+        "id": "daily-review",
+        "name": "Daily Review",
+        "version": "1.0.23",
+        "description": "Productivity tracking and daily review skill for session aggregation, metrics analysis, and multi-account reporting",
+        "category": "productivity",
+        "package": "@h4shed/skill-daily-review",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": ["session-tracking", "metrics-analysis", "reporting"],
+        "tools": ["analyze_weekly", "generate_daily_review", "log_session"],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": ["mcp", "skill", "daily-review", "productivity", "session-tracking", "metrics", "reporting"]
+      },
+      {
+        "id": "frontend-design",
+        "name": "Frontend Design",
+        "version": "1.0.24",
+        "description": "Frontend component design and HTML/CSS generation for modern web applications",
+        "category": "design",
+        "package": "@h4shed/skill-frontend-design",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": ["component-design", "html-generation", "css-generation"],
+        "tools": ["generate_component"],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": ["mcp", "skill", "frontend", "design", "html", "css", "components"]
+      },
+      {
+        "id": "linkedin-master-journalist",
+        "name": "LinkedIn Master Journalist",
+        "version": "1.0.23",
+        "description": "Draft polished LinkedIn release and thought-leadership posts",
+        "category": "content-creation",
+        "package": "@h4shed/skill-linkedin-master-journalist",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": ["content-generation", "social-media", "analytics"],
+        "tools": ["analyze_content_quality", "draft_linkedin_post", "track_content_performance", "verify_hashtags"],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": ["mcp", "skill", "linkedin", "content", "social-media"]
+      },
+      {
+        "id": "mcp-builder",
+        "name": "MCP Builder",
+        "version": "1.0.24",
+        "description": "Build and scaffold MCP servers and skills with best practices",
+        "category": "mcp-tools",
+        "package": "@h4shed/skill-mcp-builder",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": ["mcp-scaffolding", "skill-generation"],
+        "tools": ["scaffold_skill"],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": ["mcp", "skill", "scaffold", "builder", "tooling"]
+      },
+      {
+        "id": "mermaid-terminal",
+        "name": "Mermaid Terminal",
+        "version": "1.0.23",
+        "description": "Generate terminal-friendly Mermaid diagrams and flowcharts",
+        "category": "visualization",
+        "package": "@h4shed/skill-mermaid-terminal",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": ["diagram-generation", "flowchart-creation"],
+        "tools": ["generate_mermaid_diagram"],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": ["mcp", "skill", "mermaid", "diagrams", "flowcharts"]
+      },
+      {
+        "id": "multi-account-session-tracking",
+        "name": "Multi-Account Session Tracking",
+        "version": "1.0.23",
+        "description": "Extended framework for tracking Claude sessions across multiple accounts with unified metrics",
+        "category": "session-management",
+        "package": "@h4shed/skill-multi-account-session-tracking",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": ["multi-account-tracking", "metrics", "aggregation"],
+        "tools": ["session_aggregation"],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": ["mcp", "skill", "session-tracking", "multi-account", "productivity"]
+      },
+      {
+        "id": "nft-generative-art",
+        "name": "NFT Generative Art",
+        "version": "1.0.15",
+        "description": "NFT artwork generation, metadata creation, and blockchain-ready asset creation",
+        "category": "generative-art",
+        "package": "@h4shed/skill-nft-generative-art",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": ["nft-generation", "metadata-creation", "blockchain"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": ["mcp", "skill", "nft", "generative-art", "blockchain", "web3"]
+      },
+      {
+        "id": "playwright-test-automation",
+        "name": "Playwright Test Automation",
+        "version": "1.0.15",
+        "description": "End-to-end testing automation framework for web applications with cross-browser support",
+        "category": "development",
+        "package": "@h4shed/skill-playwright-test-automation",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": ["e2e-testing", "browser-automation", "qa"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": ["mcp", "skill", "playwright", "testing", "e2e", "automation"]
+      },
+      {
+        "id": "pre-deploy-validator",
+        "name": "Pre-Deploy Validator",
+        "version": "1.0.24",
+        "description": "Pre-deployment validation and quality checks for production readiness",
+        "category": "development",
+        "package": "@h4shed/skill-pre-deploy-validator",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": ["validation", "quality-checks", "deployment-preparation"],
+        "tools": ["validate_deployment"],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": ["mcp", "skill", "validation", "testing", "deployment", "qa"]
+      },
+      {
+        "id": "project-manager",
+        "name": "Project Manager",
+        "version": "1.0.23",
+        "description": "Plan projects with milestones, dependencies, and delivery phases",
+        "category": "project-management",
+        "package": "@h4shed/skill-project-manager",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": ["project-planning", "milestone-tracking", "dependency-management"],
+        "tools": ["plan_project"],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": ["mcp", "skill", "project-management", "planning"]
+      },
+      {
+        "id": "project-manager-skill",
+        "name": "Project Manager Skill",
+        "version": "1.0.24",
+        "description": "Task and project management skill for tracking work items and team collaboration",
+        "category": "project-management",
+        "package": "@h4shed/skill-project-manager-skill",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": ["task-management", "team-collaboration", "work-tracking"],
+        "tools": ["task_management"],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": ["mcp", "skill", "project-manager", "task", "tracking"]
+      },
+      {
+        "id": "project-status-tool",
+        "name": "Project Status Tool",
+        "version": "1.0.23",
+        "description": "Summarize current project status, risks, and next actions",
+        "category": "project-management",
+        "package": "@h4shed/skill-project-status-tool",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": ["status-reporting", "risk-analysis", "action-planning"],
+        "tools": ["create_project", "dashboard", "summarize_project_status"],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": ["mcp", "skill", "project-status", "reporting", "dashboard"]
+      },
+      {
+        "id": "smart-contract-tools",
+        "name": "Smart Contract Tools",
+        "version": "1.0.15",
+        "description": "Smart contract development tools for Hardhat, Truffle, and Foundry ecosystems",
+        "category": "development",
+        "package": "@h4shed/skill-smart-contract-tools",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": ["smart-contract-development", "blockchain", "solidity"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": ["mcp", "skill", "smart-contracts", "solidity", "hardhat", "blockchain"]
+      },
+      {
+        "id": "storybook-component-library",
+        "name": "Storybook Component Library",
+        "version": "1.0.15",
+        "description": "Component library documentation and visual testing with Storybook integration",
+        "category": "design",
+        "package": "@h4shed/skill-storybook-component-library",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": ["component-documentation", "visual-testing", "storybook"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": ["mcp", "skill", "storybook", "component-library", "documentation"]
+      },
+      {
+        "id": "style-dictionary-system",
+        "name": "Style Dictionary System",
+        "version": "1.0.15",
+        "description": "Design tokens and style dictionary generation for cross-platform design system management",
+        "category": "design",
+        "package": "@h4shed/skill-style-dictionary-system",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": ["design-tokens", "style-generation", "theming"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": ["mcp", "skill", "style-dictionary", "design-tokens", "design-system"]
+      },
+      {
+        "id": "svg-generator",
+        "name": "SVG Generator",
+        "version": "1.1.0",
+        "description": "Generate SVG assets and icon concepts from structured prompts",
+        "category": "design",
+        "package": "@h4shed/skill-svg-generator",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": ["svg-generation", "icon-generation", "asset-creation"],
+        "tools": ["generate_svg_asset"],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": ["mcp", "skill", "svg", "icons", "graphics"]
+      },
+      {
+        "id": "syncpulse",
+        "name": "SyncPulse",
+        "version": "0.2.13",
+        "description": "Intelligent project state caching, multi-agent coordination, and secure email automation with 9 production-ready templated workflows",
+        "category": "automation",
+        "package": "@h4shed/skill-syncpulse",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": ["state-caching", "multi-agent-coordination", "email-automation", "workflow-templates"],
+        "tools": ["email_tools", "email_workflows"],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "syncpulse"
+        },
+        "tags": ["mcp", "skill", "syncpulse", "automation", "email", "coordination"]
+      },
+      {
+        "id": "syncpulse-hub",
+        "name": "SyncPulse Hub",
+        "version": "0.1.12",
+        "description": "Centralized SyncPulse Hub - Unified orchestration and installation of all @h4shed packages",
+        "category": "infrastructure",
+        "package": "@h4shed/syncpulse-hub",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": ["package-orchestration", "centralized-installation"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "syncpulse"
+        },
+        "tags": ["mcp", "syncpulse", "orchestration", "hub", "installation"]
+      },
+      {
+        "id": "tailwindcss-style-builder",
+        "name": "Tailwind CSS Style Builder",
+        "version": "1.0.15",
+        "description": "Tailwind CSS utility-first styling and design system builder for rapid UI development",
+        "category": "design",
+        "package": "@h4shed/skill-tailwindcss-style-builder",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": ["tailwind-styling", "css-generation", "ui-development"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": ["mcp", "skill", "tailwindcss", "styling", "design-system"]
+      },
+      {
+        "id": "theme-factory",
+        "name": "Theme Factory",
+        "version": "1.0.24",
+        "description": "Design system and theme generation for consistent UI/UX across applications",
+        "category": "design",
+        "package": "@h4shed/skill-theme-factory",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": ["theme-generation", "design-system", "consistency"],
+        "tools": ["generate_theme"],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": ["mcp", "skill", "theme", "design-system", "tailwind", "css"]
+      },
+      {
+        "id": "typescript-toolchain",
+        "name": "TypeScript Toolchain",
+        "version": "1.0.15",
+        "description": "Advanced TypeScript configuration, type generation, and static analysis tooling",
+        "category": "development",
+        "package": "@h4shed/skill-typescript-toolchain",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": ["typescript-configuration", "type-generation", "static-analysis"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": ["mcp", "skill", "typescript", "type-generation", "static-analysis"]
+      },
+      {
+        "id": "underworld-writer",
+        "name": "Underworld Writer",
+        "version": "2.0.0",
+        "description": "Dual-methodology skill for fictional underworld narratives and factually sourced true crime writing with systematic character development and editorial verification",
+        "category": "content-creation",
+        "package": "@h4shed/skill-underworld-writer",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": ["creative-writing", "true-crime-research", "character-development", "editorial-verification"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "underworld-writer"
+        },
+        "tags": ["mcp", "skill", "underworld", "character", "narrative", "creative-writing", "true-crime"]
+      },
+      {
+        "id": "ux-journeymapper",
+        "name": "UX Journey Mapper",
+        "version": "1.0.23",
+        "description": "Create UX journey maps with pain points, touchpoints, and opportunities",
+        "category": "user-experience",
+        "package": "@h4shed/skill-ux-journeymapper",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": ["journey-mapping", "user-analysis", "opportunity-identification"],
+        "tools": ["map_user_journey"],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": ["mcp", "skill", "ux", "user-experience", "journey-mapping"]
+      },
+      {
+        "id": "vercel-nextjs-deployment",
+        "name": "Vercel Next.js Deployment",
+        "version": "1.0.15",
+        "description": "Vercel deployment optimization and Next.js framework integration for serverless applications",
+        "category": "infrastructure",
+        "package": "@h4shed/skill-vercel-nextjs-deployment",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": ["deployment-optimization", "nextjs-integration", "serverless"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": ["mcp", "skill", "vercel", "nextjs", "deployment", "serverless"]
+      },
+      {
+        "id": "vite-module-bundler",
+        "name": "Vite Module Bundler",
+        "version": "1.0.15",
+        "description": "Next-generation JavaScript module bundler for lightning-fast development and optimized production builds",
+        "category": "development",
+        "package": "@h4shed/skill-vite-module-bundler",
+        "status": "active",
+        "author": "Fused Gaming",
+        "license": "Apache-2.0",
+        "capabilities": ["module-bundling", "build-optimization", "development-performance"],
+        "tools": [],
+        "repository": {
+          "owner": "Fused-Gaming",
+          "repo": "Fused-Gaming-Skill-MCP"
+        },
+        "tags": ["mcp", "skill", "vite", "bundler", "build", "module"]
+      }
+    ]
+  },
+  "categories": [
+    "design",
+    "generative-art",
+    "development",
+    "productivity",
+    "content-creation",
+    "mcp-tools",
+    "visualization",
+    "session-management",
+    "project-management",
+    "user-experience",
+    "infrastructure",
+    "automation"
+  ],
+  "stats": {
+    "totalSkills": 30,
+    "byCategory": {
+      "design": 8,
+      "development": 4,
+      "generative-art": 3,
+      "content-creation": 2,
+      "project-management": 3,
+      "mcp-tools": 2,
+      "infrastructure": 2,
+      "productivity": 1,
+      "visualization": 1,
+      "session-management": 1,
+      "user-experience": 1,
+      "automation": 1
+    }
+  }
+}
