@@ -1,15 +1,15 @@
-# Fused Gaming Skills - Rock Hardened Manifest v1.0.0
+# Fused Gaming Skills - Rock Hardened Manifest v1.0.1
 
 **Release Date**: 2026-09-30  
 **Status**: STABLE | ROCK HARDENED  
-**Revision**: 89bd120 (main)  
-**Integrity**: sha256-SKILLS-v1.0.0
+**Revision**: 49f7e6b (main)  
+**Integrity**: sha256-SKILLS-v1.0.1
 
 ## Repository Information
 
 - **Repository**: Fused-Gaming/skills
 - **Type**: Skills Marketplace
-- **Version**: 1.0.0
+- **Version**: 1.0.1
 - **License**: Apache-2.0 + Non-Commercial
 - **Copyright**: Fused Gaming Inc.
 
@@ -17,8 +17,9 @@
 
 | Item | Count | Status |
 |------|-------|--------|
-| Skills | 30 | ✅ Cataloged |
-| Categories | 12 | ✅ Organized |
+| Skills | 53 | ✅ Cataloged |
+| Categories | 13 | ✅ Organized |
+| Legal Skills | 23 | ✅ Integrated |
 | MCP Core | 1.0.40 | ✅ Pinned |
 | Documentation Files | 4 | ✅ Complete |
 | Configuration Files | 3 | ✅ Locked |
@@ -29,7 +30,7 @@
 - ✅ **Locked Dependencies**: All versions pinned
 - ✅ **Reproducible Build**: package-lock.json
 - ✅ **Version Manifest**: VERSION.json
-- ✅ **Integrity Checksum**: sha256-SKILLS-v1.0.0
+- ✅ **Integrity Checksum**: sha256-SKILLS-v1.0.1
 
 ### Security Verification
 - ✅ **License Verification**: Apache-2.0
@@ -63,7 +64,7 @@ typescript: 5.3.2 (LOCKED)
 | Repository | Version | Required | Status |
 |-----------|---------|----------|--------|
 | tools | 1.0.0 | ❌ Optional | Pinned |
-| agents | 1.0.0 | ❌ Optional | Pinned |
+| agents | 1.0.1 | ❌ Optional | Pinned |
 
 ## Cross-Repository References
 
@@ -75,9 +76,9 @@ typescript: 5.3.2 (LOCKED)
 
 ### Agents Marketplace
 - **URL**: https://github.com/Fused-Gaming/agents
-- **Version**: 1.0.0
+- **Version**: 1.0.1
 - **Status**: Optional integration
-- **Checksum**: sha256-AGENTS-v1.0.0
+- **Checksum**: sha256-AGENTS-v1.0.1
 
 ## File Structure
 
