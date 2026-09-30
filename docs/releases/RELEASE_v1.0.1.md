@@ -1,3 +1,10 @@
+<!-- Version Control
+- Version: 1.0.1
+- Last Updated: 2026-09-30
+- Status: active
+- Repository: Fused-Gaming/skills
+-->
+
 # Skills Marketplace v1.0.1 Release
 
 ## Overview

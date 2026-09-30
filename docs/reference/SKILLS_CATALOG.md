@@ -1,6 +1,13 @@
+<!-- Version Control
+- Version: 1.0.1
+- Last Updated: 2026-09-30
+- Status: active
+- Repository: Fused-Gaming/skills
+-->
+
 # Fused Gaming Skills Catalog
 
-Complete inventory of all 30 skills available in the Fused Gaming ecosystem, organized by category and with full metadata for discovery and integration.
+Complete inventory of all 53 skills available in the Fused Gaming ecosystem, organized by category and with full metadata for discovery and integration.
 
 ## Quick Summary
 
